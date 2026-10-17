@@ -1349,7 +1349,7 @@
     // Bilingual Dictionary (English & Indonesian)
     const TRANSLATIONS = {
       en: {
-        page_title: "data.olx.co.id — OLX Open Data Portal & Market Intelligence",
+        page_title: "data.olx.co.id — OLX Indonesia Data Portal & Market Intelligence",
         masthead_text: "Official Data & Open API Platform of OLX Group Indonesia",
         masthead_guide: "Data verification guide",
         masthead_status: "API Gateway v2.4 Online",
@@ -1365,7 +1365,7 @@
         nav_explore: "Explore Data & API",
         nav_login: "Developer Login",
         hero_badge: "Indonesia's Largest Market Intelligence & Data Aggregation Platform",
-        hero_title_1: "OLX Indonesia Open Data Portal",
+        hero_title_1: "OLX Indonesia Data Portal",
         hero_title_2: "Market Intelligence",
         hero_desc: "Explore secondary market price indices, vehicle trading liquidity, property valuations, and consumer demand trends across 38 provinces.",
         search_placeholder: 'Search keywords: "Avanza", "Used Motorcycle Price", "Surabaya House", "iPhone", "Depreciation"',
@@ -1924,8 +1924,8 @@
         const isSelected = selectedExplorerDataset && selectedExplorerDataset.id === item.id;
         const div = document.createElement('div');
         div.className = `p-4 cursor-pointer transition-all border-l-4 ${isSelected
-            ? 'bg-sky-50/70 border-sky-600 text-slate-900 shadow-sm'
-            : 'border-transparent hover:bg-slate-100/70 text-slate-700'
+          ? 'bg-sky-50/70 border-sky-600 text-slate-900 shadow-sm'
+          : 'border-transparent hover:bg-slate-100/70 text-slate-700'
           }`;
         div.onclick = () => selectExplorerDataset(item.id);
 
